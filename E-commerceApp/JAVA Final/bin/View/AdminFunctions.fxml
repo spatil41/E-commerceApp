@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminFunctionsController">
+   <children>
+      <Button layoutX="47.0" layoutY="93.0" mnemonicParsing="false" onAction="#Add" prefHeight="38.0" prefWidth="97.0" text="Add Product" />
+      <Button layoutX="47.0" layoutY="181.0" mnemonicParsing="false" onAction="#Update" prefHeight="38.0" prefWidth="114.0" text="Update Product" />
+      <Button layoutX="255.0" layoutY="93.0" mnemonicParsing="false" onAction="#Delete" prefHeight="38.0" prefWidth="107.0" text="Delete Product" />
+      <Button layoutX="260.0" layoutY="173.0" mnemonicParsing="false" onAction="#ViewProduct" prefHeight="38.0" prefWidth="97.0" text="View Product" />
+      <Button layoutX="50.0" layoutY="266.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="107.0" text="View Orders" />
+      <Button layoutX="255.0" layoutY="266.0" mnemonicParsing="false" onAction="#LogoutApp" prefHeight="38.0" prefWidth="107.0" text="Logout" />
+   </children>
+</AnchorPane>

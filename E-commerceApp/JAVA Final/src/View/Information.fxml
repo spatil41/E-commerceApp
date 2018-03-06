@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="450.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.InformationController">
+   <children>
+      <Label layoutX="112.0" layoutY="40.0" prefHeight="35.0" prefWidth="277.0" text="IIT Shopping Application">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="118.0" prefHeight="35.0" prefWidth="392.0" text="Shop with us to get the best possible prices of the products!!">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="187.0" layoutY="200.0" mnemonicParsing="false" onAction="#LoginAdmin" prefHeight="35.0" prefWidth="126.0" text="Admin Login">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="187.0" layoutY="285.0" mnemonicParsing="false" onAction="#LoginCustomer" prefHeight="35.0" prefWidth="126.0" text="Customer Login">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
